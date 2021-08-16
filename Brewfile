@@ -101,57 +101,57 @@ cask "alacritty"
 cask "alfred"
 cask "arq"
 cask "bartender"
-cask "brave-browser"
-cask "carbon-copy-cloner"
+# cask "brave-browser"
+# cask "carbon-copy-cloner"
 cask "cleanmymac"
 cask "daisydisk"
 cask "dash"
 cask "discord"
 cask "dropbox"
-cask "firefox"
+# cask "firefox"
 cask "font-caskaydia-cove-nerd-font"
 cask "font-fira-code-nerd-font"
 cask "font-iosevka-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-victor-mono-nerd-font"
-cask "google-chrome"
+# cask "google-chrome"
 cask "handbrake"
 cask "hazel"
 cask "istat-menus"
-cask "iterm2-beta"
+# cask "iterm2-beta"
 cask "messenger"
 cask "micro-snitch"
-cask "microsoft-edge"
+# cask "microsoft-edge"
 cask "microsoft-excel"
 cask "microsoft-word"
 cask "ngrok"
-cask "opera"
+# cask "opera"
 cask "pdftotext"
 cask "pgadmin4"
 cask "postico"
-cask "postman"
+# cask "postman"
 cask "screenflick"
 cask "skype"
 cask "slack"
 cask "tableplus"
 cask "telegram"
 cask "toggl-track"
-cask "vmware-fusion"
+# cask "vmware-fusion"
 cask "whatsapp"
 
 # rubocop:disable Style/NumericLiterals
-mas "Keynote", id: 409183694
-mas "Magnet", id: 441258766
-mas "Marked 2", id: 890031187
-mas "Numbers", id: 409203825
-mas "OmniGraffle", id: 1142578753
-mas "Pages", id: 409201541
-mas "Pixelmator Pro", id: 1289583905
-mas "Things 3", id: 904280696
-mas "ToothFairy", id: 1191449274
-mas "WiFi Explorer", id: 494803304
-mas "e-Sword", id: 968437868
-mas "iNet Network Scanner", id: 403304796
+# mas "Keynote", id: 409183694
+# mas "Magnet", id: 441258766
+# mas "Marked 2", id: 890031187
+# mas "Numbers", id: 409203825
+# mas "OmniGraffle", id: 1142578753
+# mas "Pages", id: 409201541
+# mas "Pixelmator Pro", id: 1289583905
+# mas "Things 3", id: 904280696
+# mas "ToothFairy", id: 1191449274
+# mas "WiFi Explorer", id: 494803304
+# mas "e-Sword", id: 968437868
+# mas "iNet Network Scanner", id: 403304796
 # rubocop:enable Style/NumericLiterals
 
 # vim: set filetype=ruby:
