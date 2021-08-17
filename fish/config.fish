@@ -15,6 +15,8 @@ set -gx XDG_CACHE_HOME "$HOME/.cache"
 set -gx DOTFILES "$HOME/dotfiles"
 set -gx RIPGREP_CONFIG_PATH "$DOTFILES/ripgreprc"
 set -gx HOST_NAME (scutil --get HostName)
+fish_add_path -m ~/homebrew/bin
+set -gx LD_LIBRARY_PATH $HOME/homebrew/lib
 
 # FZF specific - https://github.com/junegunn/fzf#key-bindings-for-command-line
 set -gx FZF_DEFAULT_COMMAND 'rg --files --hidden --follow --no-ignore-vcs'
@@ -22,7 +24,7 @@ set -gx FZF_DEFAULT_OPTS '--height 50% --layout=reverse --border'
 set -gx FZF_CTRL_T_COMMAND $FZF_DEFAULT_COMMAND
 set -gx FZF_ALT_C_COMMAND 'fd --type d . --color=never'
 
-fish_vi_key_bindings
+ fish_vi_key_bindings
 
 if status is-interactive
   source $XDG_CONFIG_HOME/fish/abbreviations.fish
